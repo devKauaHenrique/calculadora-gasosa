@@ -1,0 +1,106 @@
+
+.container{
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 14px;
+}
+
+.logo{
+    max-width: 160px;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.form label{
+    color: white;
+    font-size: 18px;
+}
+
+.input{
+    width: 100%;
+    height: 38px;
+    border: 0;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 0 14px;
+    margin-bottom: 16px;
+    margin-top: 8px;
+}
+
+.button{
+    width: 100%;
+    height: 38px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #119cea;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.result{
+    background-color: #00b63e;
+    width: 100%;
+    max-width: 420px;
+    padding: 20px 28px;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0;
+    transition: 0.8s;
+}
+
+.result:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 8px 4px #00b63e;
+}
+
+.result-title{
+    color: white;
+    margin-bottom: 16px;
+}
+
+.result span{
+    color: white;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px){
+    .logo{
+        max-width: 180px;
+    }
+
+    .title{
+        font-size: 26px;
+        margin: 8px 0;
+    }
+
+    .form label{
+        font-size: 18px;
+    }
+
+    .form .input{
+        height: 38px;
+        font-size: 18px;
+    }
+
+    .form .button{
+        height: 38px;
+        font-size: 18px;
+    }
+
+    .result{
+        margin: 16px 0;
+    }
+}
